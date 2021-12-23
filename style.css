@@ -1,0 +1,112 @@
+.fondecran {
+  position: absolute;
+  width: 100%;
+  /* top: -400px; */
+}
+
+.textfondecran {
+  position: relative;
+  z-index: 9999;
+  text-align: center;
+  top: 110px;
+}
+
+.rouge {
+  color: red;
+}
+.vert {
+  color: rgb(14, 206, 14);
+}
+.jaune {
+  color: yellow;
+}
+
+.bleu {
+  color: rgb(59, 157, 236);
+}
+
+#photoApropos {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+body {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.photoClient {
+  width: 60%;
+}
+
+#noPad {
+  padding: 0;
+}
+
+#noPad1 {
+  padding: 0;
+}
+#noPad2 {
+  padding: 0;
+}
+#noPad3 {
+  padding: 0;
+}
+
+footer {
+  background-color: black;
+}
+
+footer ul {
+  display: flex;
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+
+header {
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+}
+
+#footer {
+  margin-bottom: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#footer2 {
+  margin-bottom: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#noMarge {
+  margin-bottom: 0;
+}
+
+.boxIndex {
+  /* border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px; */
+}
+
+@media (max-width: 576px) {
+  #footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
